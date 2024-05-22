@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/pontosturisticos.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Pontos Turísticos | São João Del Rei</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <a href="index.html">Inicio</a>
+        <a href="culinaria.html">Gastronomia</a>
+        <a href="hoteis.html">Hoteis</a>
+        <a href="pontosturisticos.html">Pontos Turisticos</a>
+        <a href="">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="mainSectionPontoTuristico">
+        <h1>Pontos Turísticos</h1>
+        <h2>
+          Conheça os locais <span class="color-laranja">mais famosos</span> de
+          São João Del Rei
+        </h2>
+
+        
+        <noscript><p class="habilitar-js">Precisa <span class="color-laranja">habilitar o JavaScript</span> para poder ver o conteúdo.</p></noscript>
+
+        <!-- pontos turisticos -->
+        <div
+          class="mainContainerPontoTuristico"
+          id="mainContainerPontoTuristico"
+        >
+        </div>
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+              <div class="modal-header">
+              <span class="close" onclick="fecharModal()">&times;</span>
+              <h2 id="titulo-modal"></h2>
+              </div>
+              <div class="modal-body">
+              <p id="texto-modal"></p>
+              </div>
+          </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p>Feito com &#128150; <a href="">SENAC</a></p>
+    </footer>
+
+    <script src="js/pontosturisticos.js"></script>
+  </body>
+</html>
